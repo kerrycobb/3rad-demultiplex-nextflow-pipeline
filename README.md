@@ -22,7 +22,8 @@ outdir: Path to directory for output files.
 Should be a tab separated file with index sequence followed by ID. ID must have two parts. An index ID and a plate ID separated by a hyphen. The plate ID must match the first part of the sample barcode file name. Also see example file.
 
 For example:
-
+|   |   |
+|---|---|
 | CGATAGAG | iTru7_111_01-plate1 |
 | TTCGTTGG | iTru7_111_02-plate1 |
 | GACGAATG | iTru7_111_05-plate2 |
@@ -35,18 +36,24 @@ Should be a tab separated file with a barcode sequence followed by an ID. Unders
 
 For example:
 `plate1-barcodes.tsv`
+|   |   |   |
+|---|---|---|
 | CCGAATG | CTAACGT    | sampleA |
 | CCGAATG | TCGGTACT   | sampleB |
 | CCGAATG | GATCGTTGT  | sampleC |
 | CCGAATG | AGCTACACTT | sampleC_2 |
 
 `plate2-barcodes.tsv`
+|   |   |   |
+|---|---|---|
 | CCGAATG | CTAACGT    | sampleD_1 |
 | CCGAATG | TCGGTACT   | sampleD_2 |
 | CCGAATG | GATCGTTGT  | sampleE |
 | CCGAATG | AGCTACACTT | sampleF |
 
 `plate3-barcodes.tsv`
+|   |   |   |
+|---|---|---|
 | CCGAATG | CTAACGT    | sampleA |
 | CCGAATG | TCGGTACT   | sampleB |
 | CCGAATG | GATCGTTGT  | sampleC |
